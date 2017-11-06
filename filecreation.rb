@@ -1,0 +1,1 @@
+File.open("words.txt", "w+"){|file| file.write("Hello from fileCreation file")}

@@ -1,4 +1,4 @@
-test_str = "This is a test string"
+
 def boxer str
   word_arr = str.split(" ")
   max_length = word_arr.max_by(&:length).length
@@ -22,6 +22,6 @@ def boxer str
    
 end
 
-
-
-boxer test_str
+puts "What string would you like to box?"
+answer = gets.chomp!
+boxer answer
